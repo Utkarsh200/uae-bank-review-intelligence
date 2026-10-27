@@ -125,6 +125,9 @@ res['rq4_top_themes_overall']=cell.groupby('theme').P.mean().round(3).sort_value
 # pilot summaries for status
 res['replied']=float(d.replied.mean())
 
+out_cols=[c for c in d.columns if c not in ('short',)]
+d[out_cols].assign(m=d['m'].astype(str)).to_csv(ROOT/'data'/'processed'/'analysis_dataset.csv',index=False,encoding='utf-8-sig')
+pan.assign(m=pan['m'].astype(str)).to_csv(ROOT/'data'/'processed'/'rq4_panel.csv',index=False,encoding='utf-8-sig')
 json.dump(res,open(ROOT/'reports'/'pilot_results.json','w'),indent=1,default=str)
 
 plt.rcParams.update({'font.family':'serif','font.size':9,'axes.spines.top':False,'axes.spines.right':False,'axes.grid':True,'grid.alpha':.25,'figure.dpi':200})
