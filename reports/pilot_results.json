@@ -1,0 +1,263 @@
+{
+ "n": 46685,
+ "themed_share": 0.31170611545464283,
+ "theme_counts": {
+  "other": 32133,
+  "ui": 4009,
+  "performance": 2991,
+  "transfers": 2183,
+  "support": 1758,
+  "login": 1409,
+  "cards": 1369,
+  "fees": 443,
+  "onboarding": 390
+ },
+ "rq1_chi": {
+  "n": 8103,
+  "chi2": 162.09211336649076,
+  "dof": 14,
+  "p": 2.692513897662198e-27,
+  "V": 0.10000990737250837,
+  "min_expected": 18.718992965568308,
+  "n_low_all": 11714,
+  "n_low_themed": 8103
+ },
+ "rq1_ct_pct": {
+  "Conventional": {
+   "cards": 0.119,
+   "fees": 0.036,
+   "login": 0.125,
+   "onboarding": 0.023,
+   "performance": 0.297,
+   "support": 0.149,
+   "transfers": 0.181,
+   "ui": 0.071
+  },
+  "Digital-only": {
+   "cards": 0.162,
+   "fees": 0.064,
+   "login": 0.125,
+   "onboarding": 0.048,
+   "performance": 0.222,
+   "support": 0.209,
+   "transfers": 0.111,
+   "ui": 0.058
+  },
+  "Islamic": {
+   "cards": 0.13,
+   "fees": 0.027,
+   "login": 0.166,
+   "onboarding": 0.047,
+   "performance": 0.311,
+   "support": 0.163,
+   "transfers": 0.105,
+   "ui": 0.052
+  }
+ },
+ "rq1_kw": {
+  "H": 4735.739618622672,
+  "p": 0.0,
+  "eps2": 0.32545801791098017,
+  "n": 14552,
+  "k": 8
+ },
+ "theme_rating": {
+  "cards": {
+   "count": 1369,
+   "mean": 1.99,
+   "median": 1.0
+  },
+  "fees": {
+   "count": 443,
+   "mean": 2.21,
+   "median": 1.0
+  },
+  "login": {
+   "count": 1409,
+   "mean": 1.83,
+   "median": 1.0
+  },
+  "onboarding": {
+   "count": 390,
+   "mean": 2.49,
+   "median": 1.0
+  },
+  "performance": {
+   "count": 2991,
+   "mean": 1.74,
+   "median": 1.0
+  },
+  "support": {
+   "count": 1758,
+   "mean": 2.08,
+   "median": 1.0
+  },
+  "transfers": {
+   "count": 2183,
+   "mean": 2.5,
+   "median": 1.0
+  },
+  "ui": {
+   "count": 4009,
+   "mean": 4.38,
+   "median": 5.0
+  }
+ },
+ "theme_lowshare": {
+  "cards": 0.736,
+  "fees": 0.666,
+  "login": 0.76,
+  "onboarding": 0.608,
+  "performance": 0.796,
+  "support": 0.721,
+  "transfers": 0.6,
+  "ui": 0.134
+ },
+ "dunn_sig_pairs": 17,
+ "dunn_pairs": 28,
+ "rq1_kw_group": {
+  "H": 163.86493504559627,
+  "p": 2.61325305111967e-36,
+  "eps2": 0.0035100877183959446
+ },
+ "group_rating": {
+  "Conventional": {
+   "count": 34557,
+   "mean": 3.901,
+   "median": 5.0
+  },
+  "Digital-only": {
+   "count": 2658,
+   "mean": 3.583,
+   "median": 5.0
+  },
+  "Islamic": {
+   "count": 9470,
+   "mean": 4.029,
+   "median": 5.0
+  }
+ },
+ "group_low": {
+  "Conventional": 0.253,
+  "Digital-only": 0.325,
+  "Islamic": 0.222
+ },
+ "bank_rating": {
+  "ADCB (ADCB mobile banking)": {
+   "count": 7039,
+   "mean": 3.19
+  },
+  "Abu Dhabi Islamic Bank (ADIB)": {
+   "count": 3998,
+   "mean": 4.45
+  },
+  "Commercial Bank of Dubai (CBD)": {
+   "count": 792,
+   "mean": 3.05
+  },
+  "Dubai Islamic Bank (DIB)": {
+   "count": 2053,
+   "mean": 3.25
+  },
+  "Emirates Islamic": {
+   "count": 3419,
+   "mean": 4.0
+  },
+  "Emirates NBD (ENBD X)": {
+   "count": 10574,
+   "mean": 4.17
+  },
+  "First Abu Dhabi Bank (FAB Mobile)": {
+   "count": 5861,
+   "mean": 3.99
+  },
+  "Liv X (Emirates NBD)": {
+   "count": 2200,
+   "mean": 3.6
+  },
+  "Mashreq": {
+   "count": 9011,
+   "mean": 4.2
+  },
+  "RAKBANK": {
+   "count": 1280,
+   "mean": 3.64
+  },
+  "Wio": {
+   "count": 458,
+   "mean": 3.48
+  }
+ },
+ "rq4_cells_possible": 2112,
+ "rq4_cells_nonempty": 1688,
+ "rq4_usable": 267,
+ "rq4_series": 34,
+ "rq4_spearman": {
+  "rho": -0.10434503424720265,
+  "ci": [
+   -0.20088527745863619,
+   0.0057640201539687404
+  ],
+  "rho_freq": -0.02093547745963271
+ },
+ "rq4_reg": {
+  "r2_1": 0.05356702916705636,
+  "r2_2": 0.05562081246778883,
+  "dR2": 0.00205378330073247,
+  "beta_P": 0.33267682414595456,
+  "se_P": 0.41644020523805536,
+  "F": 0.6381750044996758,
+  "p": 0.42437242807705255,
+  "beta_rating_m": 0.11544436132523003
+ },
+ "rq4_sens_equal": -0.09759974504265104,
+ "rq4_sens_freq_heavy": -0.05546422645139968,
+ "rq4_top_last_month": [
+  {
+   "bank": "Commercial Bank of Dubai (CBD)",
+   "theme": "transfers",
+   "n": 2,
+   "rating_m": 1.0,
+   "P": 0.758
+  },
+  {
+   "bank": "Emirates NBD (ENBD X)",
+   "theme": "transfers",
+   "n": 26,
+   "rating_m": 2.0,
+   "P": 0.7
+  },
+  {
+   "bank": "RAKBANK",
+   "theme": "cards",
+   "n": 1,
+   "rating_m": 1.0,
+   "P": 0.686
+  },
+  {
+   "bank": "ADCB (ADCB mobile banking)",
+   "theme": "performance",
+   "n": 43,
+   "rating_m": 1.419,
+   "P": 0.678
+  },
+  {
+   "bank": "Mashreq",
+   "theme": "login",
+   "n": 21,
+   "rating_m": 1.429,
+   "P": 0.674
+  }
+ ],
+ "rq4_top_themes_overall": {
+  "performance": 0.55,
+  "transfers": 0.545,
+  "cards": 0.533,
+  "login": 0.507,
+  "support": 0.475,
+  "ui": 0.424,
+  "onboarding": 0.403,
+  "fees": 0.347
+ },
+ "replied": 0.9070579415229731
+}
