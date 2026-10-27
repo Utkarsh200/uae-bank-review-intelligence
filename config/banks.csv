@@ -1,0 +1,12 @@
+bank,group,play_id,play_status,ios_id,ios_status
+Emirates NBD (ENBD X),Conventional,com.emiratesnbd.android,verified on Google Play page,1497518128,verified on App Store (ae)
+First Abu Dhabi Bank (FAB Mobile),Conventional,,run resolve,1383237548,verified on App Store
+ADCB (ADCB mobile banking),Conventional,,run resolve,547172388,verified on App Store
+Mashreq,Conventional,,run resolve,,run resolve
+Commercial Bank of Dubai (CBD),Conventional,,run resolve,,run resolve
+RAKBANK,Conventional,,run resolve,,run resolve
+Dubai Islamic Bank (DIB),Islamic,,run resolve,,run resolve
+Abu Dhabi Islamic Bank (ADIB),Islamic,,run resolve,,run resolve
+Emirates Islamic,Islamic,com.s4m,found via Play search; confirm with verify,,run resolve
+Liv X (Emirates NBD),Digital-only,me.livx.android,verified on Google Play page,6473088676,verified on App Store
+Wio,Digital-only,,run resolve,,run resolve

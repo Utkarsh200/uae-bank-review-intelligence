@@ -1,0 +1,19 @@
+# Domain profile for the UAE bank app-review study (read by every pipeline stage)
+domain: uae_banking
+version: 1.0
+window: {start: 2024-10-01, end: 2026-09-30}
+sources:
+  - {plugin: google_play, country: ae, langs: [en, ar]}
+  - {plugin: app_store, country: ae}
+banks_file: config/banks.csv
+taxonomy:   # severity weights are starting values to be tuned in RQ4
+  - {id: login,       desc: "Login, OTP, biometric or password failures",        severity: 0.7}
+  - {id: transfers,   desc: "Failed, delayed or wrong transfers and payments",   severity: 0.9}
+  - {id: cards,       desc: "Card activation, blocking, limits, PIN",            severity: 0.8}
+  - {id: performance, desc: "Crashes, slowness, errors, outages",                severity: 0.6}
+  - {id: onboarding,  desc: "Account opening, KYC, Emirates ID verification",    severity: 0.6}
+  - {id: support,     desc: "Customer support and unanswered complaints",        severity: 0.5}
+  - {id: ui,          desc: "Interface, missing features, usability",            severity: 0.3}
+  - {id: fees,        desc: "Fees, charges, rates",                              severity: 0.4}
+priority_weights: {frequency: 0.3, severity: 0.3, recency: 0.2, rating_impact: 0.2}
+validator: {plugin: rating_decline, window: monthly}
